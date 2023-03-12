@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: #1c1718;
+}
+.logo{
+    width: 20%;
+    /* height: 10px; */
+    text-align: center;
+    position: relative;
+    top: 46px;
+    left: 74px;
+}
+.logo h3{
+    color: #fff;
+    font-family: 'Doppio One', sans-serif;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+nav{
+    margin-top: -30px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    font-weight: 700 !important;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+.login_btn {
+    padding: 5px 15px 5px 15px;
+    vertical-align: middle;
+    position: relative;
+    right: 10%;
+    background: #f45836;
+    border: none;
+}
+
+.login_btn a {
+    font-weight: 700 !important;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li:nth-child(1),
+nav ul li:nth-child(2),
+nav ul li:nth-child(3) {
+    position: relative;
+    /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+    right: 30%;
+}
+
+/* Section 1 */
+.section_1 {
+    display: flex;
+}
+
+.title_txt {
+    width: 40%;
+}
+
+.title_txt h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 150px;
+    color: #fff;
+    padding-left: 50px;
+    font-weight: 100;
+}
+
+.default_btn,
+.highlight_btn {
+    position: relative;
+    left: 50px;
+}
+
+.default_btn {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+.default_btn a {
+    text-decoration: none;
+    color: #1c1718;
+}
+
+.default_btn:hover {
+    cursor: pointer;
+    border: none;
+    background: #f45836;
+    transition: 0.3s;
+    color: #fff !important;
+
+}
+
+.default_btn a:hover {
+    color: #fff;
+}
+
+.highlight_btn {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #1c1718;
+    border: none;
+}
+
+.highlight_btn a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.highlight_btn a:hover {
+    color: #f45836;
+    border-bottom: 1px solid #f45836;
+
+}
+
+.head_photo {
+    display: flex;
+    width: 50%;
+}
+
+.head_photo img {
+    height: 65%;
+    padding: 40px 0 0 120px;
+    transition: 0.5s;
+}
+
+.head_photo img:nth-child(2) {
+    position: relative;
+    margin-top: -12%;
+    left: -90px;
+    z-index: -1;
+}
+
+/* Section_2 */
+
+.section_2 {
+    display: flex;
+    margin-top: -130px;
+}
+
+.box_text {
+    display: flex;
+    width: 40%;
+    margin-bottom: 50px;
+    border: 1px solid #fff;
+    height: 150px;
+    align-items: center;
+}
+
+.hero_img {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.hero_img img {
+    width: 100%;
+    margin-top: -40px;
+    margin-right: 50px;
+}
+
+.hero_text h3 {
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.hero_text p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.task_box {
+    width: 50%;
+    margin-left: 120px;
+}
+
+.task_1 {
+    display: flex;
+}
+
+.task_1 h3 {
+    color: #fff;
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+.task_1 p {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.date {
+    text-align: right !important;
+}
+
+.task_2 {
+    display: flex;
+}
+
+.task_2 h3 {
+    width: 30%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.task_2 p {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.date {
+    width: 50%;
+    text-align: right;
+}
